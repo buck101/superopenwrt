@@ -15,3 +15,14 @@ define Profile/BXU2000N2/Description
 endef
 
 $(eval $(call Profile,BXU2000N2))
+
+define Profile/BXO2000N2S
+	NAME:=BHU BXO2000n-2S
+	PACKAGES:=kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-usb-storage
+endef
+
+define Profile/BXO2000N2S/Description
+	Package set optimized for the BHU BXO2000n-2S.
+endef
+
+$(eval $(call Profile,BXO2000N2S))

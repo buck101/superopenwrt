@@ -40,6 +40,9 @@ get_status_led() {
 	bxu2000n-2-a1)
 		status_led="bhu:green:status"
 		;;
+	bxo2000n-2s-a1)
+		status_led="bhu:green:status"
+		;;
 	cap4200ag)
 		status_led="senao:green:pwr"
 		;;

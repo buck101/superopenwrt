@@ -45,6 +45,14 @@ bxu2000n-2-a1)
 	ucidef_set_led_wlan "wlan" "WLAN" "bhu:green:wlan" "phy0tpt"
 	;;
 
+bxo2000n-2s-a1)
+	ucidef_set_led_wlan "wlan" "WLAN" "bhu:green:wlan" "phy0tpt"
+	ucidef_set_rssimon "wlan0" "40000" "1"
+	ucidef_set_led_rssi "rssilow" "RSSILOW" "bhu:green:rssilow" "wlan0" "1" "40" "0" "6"
+	ucidef_set_led_rssi "rssimedium" "RSSIMEDIUM" "bhu:green:rssimedium" "wlan0" "30" "80" "-29" "5"
+	ucidef_set_led_rssi "rssihigh" "RSSIHIGH" "bhu:green:rssihigh" "wlan0" "70" "100" "-69" "8"
+	;;
+
 cap4200ag)
 	ucidef_set_led_default "lan_green" "LAN_GREEN" "senao:green:lan" "1"
 	ucidef_set_led_wlan "wlan_amber" "WLAN_AMBER" "senao:amber:wlan" "phy0tpt"

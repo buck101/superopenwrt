@@ -655,6 +655,9 @@ ar71xx_board_detect() {
 	*"BHU BXU2000n-2 rev. A1")
 		name="bxu2000n-2-a1"
 		;;
+	*"BHU BXO2000n-2S rev. A1")
+		name="bxo2000n-2s-a1"
+		;;
 	esac
 
 	case "$machine" in
