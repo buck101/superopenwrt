@@ -33,3 +33,13 @@ Sunshine!
 	http://openwrt.org
 
 
+Buck:
+1)update & install
+./scripts/feeds update -a
+./scripts/feeds install -a 
+
+2) clone and follow rt2860v2 porting
+https://github.com/wuqiong/rt2860v2-for-openwrt-mt7620
+
+3) make menuconfig 
+select luci and other tools
